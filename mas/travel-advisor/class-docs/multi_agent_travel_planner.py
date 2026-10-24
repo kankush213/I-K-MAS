@@ -58,7 +58,7 @@ except Exception:
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    model="gpt-5.2",
+    model="gpt-4o-mini",
     # stream_usage=True,
     temperature=0.2,
     # max_tokens=None,
@@ -127,7 +127,7 @@ internet_search.invoke({"query": "Top Travel attractions in Vienna"})
 """### Deep Research Agent"""
 
 # Define Model for Deep Research Agent
-model = init_chat_model(model="gpt-5.2", model_provider="openai", temperature=0.2)
+model = init_chat_model(model="gpt-4o-mini", model_provider="openai", temperature=0.2)
 
 # Itinerary Agent (Deep Research) Prompt
 

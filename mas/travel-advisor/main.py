@@ -7,7 +7,7 @@ if __name__ == "__main__":
     
     result = agent.invoke(
         {
-            "user_query": "What is the best time to visit Jaipur?",
+            "user_query": "December 2026 around. In India, Suggest me 3 places to visit for small vacation break with my family.",
             "messages": [],
             "tasks": [],
             "requires_synthesis": False,

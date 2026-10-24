@@ -7,8 +7,8 @@ load_dotenv()
 
 # Initialize LLM for local usage
 llm = ChatOpenAI(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     temperature=0.2,
 )
 
-deep_research_model = init_chat_model(model="gpt-5.2", model_provider="openai", temperature=0.2)
+deep_research_model = init_chat_model(model="gpt-4o-mini", model_provider="openai", temperature=0.2)
